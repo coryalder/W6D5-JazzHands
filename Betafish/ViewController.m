@@ -33,6 +33,10 @@
 
     // init and show tour
     
+    IntroTourViewController *introController = [[IntroTourViewController alloc] init];
+    
+    [self presentViewController:introController animated:YES completion:nil];
+    
     // make this dependant on a user default?
 
 }
