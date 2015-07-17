@@ -1,0 +1,6 @@
+framework module Cartography {
+  umbrella header "Pods-Betafish-Cartography-umbrella.h"
+
+  export *
+  module * { export * }
+}

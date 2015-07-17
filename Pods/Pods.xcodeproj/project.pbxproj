@@ -1,0 +1,1533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006E989F4F461776FAD5BDBC /* ZLPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = D173B862D7D7D3610A3B8C92 /* ZLPanGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		007A1C92AA4523C7048021C4 /* IFTTTAlphaAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AB23F552696369D93255BD /* IFTTTAlphaAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		077D9C1403B63CD6EAB20B3E /* IFTTTFrameAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BBECB4C778E149B79A6CAD /* IFTTTFrameAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		0A60BC170B80C4396A82A77A /* IFTTTConstraintConstantAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B4337608014AF21128D6B1 /* IFTTTConstraintConstantAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		0A8C5C8A3C532F1E0913DFA3 /* IFTTTTranslationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A67CD4B1DEFF3B4251AD58BD /* IFTTTTranslationAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		0CF2A082E25ACCD1141C3CE0 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4425B3C9093BFB9329910 /* Size.swift */; };
+		0D59B8564602D9F897D2AF5B /* TransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEC1BC2F190422FB89CC203 /* TransitionAnimation.swift */; };
+		0D7EDCFDF272525C08E8E5BD /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F6646FC699587A153B1597 /* Compound.swift */; };
+		11963A64B04F2D655537FDD2 /* Pods-Betafish-Pages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02DA31C749256DFA2B13C3D2 /* Pods-Betafish-Pages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		182F9998E9B9D4B3F3D6F7DC /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BD1B0FAF92FE210494614E /* Property.swift */; };
+		1897E7E1B0E582ECDE64A22A /* IFTTTStrokeEndAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFC80D433C0A0B767E0367C6 /* IFTTTStrokeEndAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		1E31676B1583F5546B9A09EA /* Pods-Betafish-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 678886248B9A419B2F57BE67 /* Pods-Betafish-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23AEADFFBE5F78FBFEB5B32C /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865A5703183069ED5D578C36 /* Constraint.swift */; };
+		2583045FC6F7C174A34C1A80 /* IFTTTLabelAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D11343ED80B9D5CF73422C /* IFTTTLabelAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		282008C43958C1F67C990F45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003FF12749230B024E996A0F /* Foundation.framework */; };
+		287065984B5BC1D00D991786 /* IFTTTAlphaAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B691D4DDC79B987AE3CD491 /* IFTTTAlphaAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AB31CBC39D834E1B25D2B4D /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076A1040A666EBB9386767BA /* LayoutProxy.swift */; };
+		2AC2F8080AA459C278CD8BAD /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E7449449511EF858A42E3 /* ConstraintGroup.swift */; };
+		2BACA5B4193D80617E8851CA /* ZLPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5486974E066137D50178B757 /* ZLPanGestureRecognizer.m */; };
+		2D5F765B72D13C25C1411431 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7432CAF4B8E5796C3FC8BA78 /* PresentationController.swift */; };
+		2F9B7B00F084E67EA3B35A51 /* IFTTTShapeLayerAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C13701D4868134D780127C0 /* IFTTTShapeLayerAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31333854BE17DF2CB28728D7 /* ZLSwipeableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E20612DE5B1D3B520ADF9B /* ZLSwipeableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33A7CBD6A624CFF508E9D491 /* Pods-Betafish-Pages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE2569238407C68A7238DC8 /* Pods-Betafish-Pages-dummy.m */; };
+		344C0E105D331E1D08EB166F /* IFTTTHideAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E342CB71CB75AEC4043D080 /* IFTTTHideAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		379E88F3C8FFE240D9FFB377 /* Cartography.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E429E7D532921159446CA8 /* Cartography.framework */; };
+		39C67C0D43C5E47514BDF48B /* IFTTTViewAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EACD5702F62A597E05A45B2 /* IFTTTViewAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B3ACBB12057FDF3237322E6 /* IFTTTRotationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FDFCB5E8EA96F6FDC957C1 /* IFTTTRotationAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		3B485C5A846E9745AFEFB26E /* Animatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B0617020D553801A4C96A3 /* Animatable.swift */; };
+		3F534E761917FE0641E0C138 /* IFTTTInterpolatable.m in Sources */ = {isa = PBXBuildFile; fileRef = F21E4E38CAF6825D43DF53DB /* IFTTTInterpolatable.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		3F692C059F6E03670EA53E7B /* Pods-Betafish-JazzHands-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0132D85BB9221C4AC677FF3 /* Pods-Betafish-JazzHands-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		412320EADFA6B756BD53C76F /* IFTTTFillColorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D2023FCA72E81B46D37FDD0 /* IFTTTFillColorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44563067E164E8CB2A598695 /* IFTTTColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7D076BE6B62B8B1897970 /* IFTTTColorAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		4611E8756E5FE4C1D6D27036 /* IFTTTJazzHands.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3A7E0237CBE4F65C526424 /* IFTTTJazzHands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46BE682192FCCAAC374A7BB5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D39C0690A9C63653C898DA6 /* CoreGraphics.framework */; };
+		4B4AD7F12321F811784C36EC /* PagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B948B1A409E9598260B2433A /* PagesController.swift */; };
+		4BC82745A407BBEE0028F976 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBEF10DDD09B813A55F0332 /* UIKit.framework */; };
+		4C358147818D5CBA1E918C24 /* ZLSwipeableView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E5B1F260BFCC978EAF432B /* ZLSwipeableView.m */; };
+		5283A2F9395F0DCFBED13DF3 /* IFTTTEasingFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ECF83F72E6851AFCBB4F2A1 /* IFTTTEasingFunction.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		55B844F0104A083E8C245CCF /* IFTTTTransform3DAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B4980E985ECA08CE88E186 /* IFTTTTransform3DAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56CBD988399D4B8614F719EC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45521D82BA92860FE645E682 /* View.swift */; };
+		59CD94FAECF2C5F35E34B591 /* UIView+IFTTTJazzHands.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FD188A4BA0C4FBE57B2803 /* UIView+IFTTTJazzHands.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		5A9CCE05C81448DC9EA094B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003FF12749230B024E996A0F /* Foundation.framework */; };
+		5DD648B6635B827D5052F618 /* IFTTTFillColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BD0131173B0CBF9FC3DF5 /* IFTTTFillColorAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		5E2C4B941FC72FEF0E374C45 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C691C140A9F4669A803390C /* Dimension.swift */; };
+		5F8466972D253ECC53C731FC /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E5F9AE2711CFF323DD975 /* Position.swift */; };
+		606580FFA61D83FD8DCF3080 /* IFTTTEasingFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = BACB3358DAE71A1C794548A5 /* IFTTTEasingFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		630072883C8D24555ADBA52F /* IFTTTFilmstrip.h in Headers */ = {isa = PBXBuildFile; fileRef = 7822FB90AC6476EEEB2F1702 /* IFTTTFilmstrip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63ACA8205318AFC27E4D2959 /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC48D3714EC96DEF0080DA /* Align.swift */; };
+		6783E4D36AD2B3EE49DAE428 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53A76BF395211433D34B79C /* QuartzCore.framework */; };
+		6A96A44476D748CFA2C58962 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F320C6B35A9739848B6EA7CC /* Extensions.swift */; };
+		6C62AB68E59237B285F74899 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7DDCF31C868A0109CAFED2 /* ViewUtils.swift */; };
+		6D488D76C58F27ABF16B4BCF /* Pods-Betafish-ZLSwipeableView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1BF6E350F2FA9571F3951 /* Pods-Betafish-ZLSwipeableView-dummy.m */; };
+		6DBEC3C439AFB9C18413BC6A /* IFTTTCornerRadiusAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E96B7CDDB0E1437458E2F376 /* IFTTTCornerRadiusAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70A123C89C01D6C9C43EF008 /* IFTTTRotationAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = AC76EACB50DC8D4877C51616 /* IFTTTRotationAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A814733730D7F4F2F2CF26 /* IFTTTTransform3DAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 17775960885D0FF079BF1F8A /* IFTTTTransform3DAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		772127C20571E63B0F7810CE /* IFTTTScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAC8BE09CA7AEA4F89269233 /* IFTTTScaleAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		7B24A5FF3FC5CB6FB84B0EE5 /* SlideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7376EE1AF1FFB9DF1118E5BC /* SlideController.swift */; };
+		7C15D9656AEABBA410A7C269 /* IFTTTShapeLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DB32E4634333AEFBFBB1BB /* IFTTTShapeLayerAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		7D865150915C177A9818C760 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003FF12749230B024E996A0F /* Foundation.framework */; };
+		80A84BC89ACEA777B0D96F75 /* Pods-Betafish-Presentation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A84688AA0B93051CAA23E /* Pods-Betafish-Presentation-dummy.m */; };
+		823B2E7701BD412B56386701 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CEA35F86ABADAECA659DE8 /* Coefficients.swift */; };
+		88776BBDB265D04BF9155B48 /* Pods-Betafish-Presentation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 56C3215668EE013C5D5AEEF4 /* Pods-Betafish-Presentation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9377B468C38F1EBFAEFA7B0F /* IFTTTAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7728C2AC6ACFEDAA528186A7 /* IFTTTAnimator.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		93CE9A558F8803339F307675 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7A9B076031A26964953E5A /* Expression.swift */; };
+		96656C21C4360647024A54D1 /* IFTTTAnimatedScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 234EBBB3669CB09D0DB60C4F /* IFTTTAnimatedScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9713AEFC01C5B337E3DBEADF /* Pods-Betafish-JazzHands-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A56F127FBF7CEDACB0096 /* Pods-Betafish-JazzHands-dummy.m */; };
+		97B6543692E3F8A54BA09CEE /* IFTTTViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D69FFA15C56E3B3E76178A /* IFTTTViewAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		983B14E77EFAF5FABCBF4949 /* IFTTTAnimatedPagingScrollViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7927996FF10DE6A67A222DC /* IFTTTAnimatedPagingScrollViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99C760F3A4E76660130FB33E /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DD77DB569D1A643DA7A6A /* Distribute.swift */; };
+		9BF72F737AADDBC72C1D67E0 /* Pods-Betafish-Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BC6DED39F2457513A53747 /* Pods-Betafish-Cartography-dummy.m */; };
+		9DC1249D8DBA41C3D06A1568 /* IFTTTAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = ED20B518F225C5FBD6974A16 /* IFTTTAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		9F06F5A6B6CB8C99B0E5CD46 /* IFTTTTextColorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E974F03666A0AF624362D680 /* IFTTTTextColorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3101EA1564B69B9D113CED3 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48996195CFD76111BBB69B66 /* CGPointExtension.swift */; };
+		A3DD7C354A4D6C0B1FA2B872 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003FF12749230B024E996A0F /* Foundation.framework */; };
+		A50CCFC49BDCEE61A2987AF9 /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5F04DA6CC86A5AA686C0A /* Edges.swift */; };
+		A643C7EF4DDA719A56712257 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBEF10DDD09B813A55F0332 /* UIKit.framework */; };
+		A82F6105E699A09FFB500A71 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F4DE5B7FA339BCFB71D23 /* Point.swift */; };
+		AC9122EBC9A61ED10BB80BA7 /* IFTTTFrameAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C748F30A85751873D984E720 /* IFTTTFrameAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC94CF62BCC0635B224B95DB /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C55ADCEDD7B65384560771B /* Context.swift */; };
+		AD869FA64A9F0254B41B4E10 /* IFTTTAnimatedPagingScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D2DA369C565BFF53682370E /* IFTTTAnimatedPagingScrollViewController.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		ADEB5EA2E805A7A4FA9D04B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003FF12749230B024E996A0F /* Foundation.framework */; };
+		AE4673F72885536A22A0CE11 /* IFTTTScaleAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1A2C67E3BFE0E4956C2477 /* IFTTTScaleAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B333CB114E4105CF5621E410 /* Pages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC33DFA27C9F2C76E7F1EDC /* Pages.framework */; };
+		B9DA4144658D43C19F342AB6 /* Pods-Betafish-ZLSwipeableView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8F391363218C16700F1B2D /* Pods-Betafish-ZLSwipeableView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBF48F097CE104FE07E73F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003FF12749230B024E996A0F /* Foundation.framework */; };
+		BF3291F573582CD6CA2B26CF /* DissolveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE508C15E93C6B10D1EB1350 /* DissolveAnimation.swift */; };
+		BF67B12D34D268197E89CFA6 /* IFTTTColorAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C730DF9B72F853A24113F647 /* IFTTTColorAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3103F65576C440E6A9D2BB9 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D35CD3A88EF597C06D6B806 /* Priority.swift */; };
+		C4A287950918FF560FE40822 /* IFTTTConstraintMultiplierAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9A8A84DA1F68B1EA9F60DB /* IFTTTConstraintMultiplierAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		C6A0DCF0540F87CE575429D9 /* IFTTTLabelAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = E0DC7FF5493090B1A6F2E024 /* IFTTTLabelAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA595A18D1899DA0DFB8E4B7 /* IFTTTHideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F678C7A1C23579C58F4C187 /* IFTTTHideAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		CBD36EAA5EE9F3FE29EBC09B /* IFTTTConstraintMultiplierAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 900F2AAFB87ECC5EE487B879 /* IFTTTConstraintMultiplierAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC0E9891F0F33D4EA22F220 /* Pods-Betafish-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEC52CE0F97A04466135470 /* Pods-Betafish-dummy.m */; };
+		CFB5F15930F253E640C0AE02 /* Pods-Betafish-Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C3D9F1D43A1341235F39D9 /* Pods-Betafish-Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0CBC3409153BBA19F35CBD2 /* IFTTTStrokeStartAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEA685B14EE7BDBDAB7FCD4 /* IFTTTStrokeStartAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F68C1445A8BF389856430A /* IFTTTAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC0210BB5076FB99C2F3470 /* IFTTTAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D60238C9D98949D162CCC121 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EDB8DD34A25D21A86420E /* Content.swift */; };
+		D95177C25ABC87874BF82032 /* IFTTTInterpolatable.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D53CDAE6767B07D9C6931A /* IFTTTInterpolatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F1BE2C86BAEF754DE1FB93 /* IFTTTFilmstrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 3359498F92B3359651EFDFE7 /* IFTTTFilmstrip.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		DB166C8850B560A80EF10682 /* IFTTTConstraintConstantAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A51E050D5E6389915D6A8D /* IFTTTConstraintConstantAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD55B11A33EEBCAE0DA51A65 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBEF10DDD09B813A55F0332 /* UIKit.framework */; };
+		DF57C430669722E0D716DF49 /* UIView+IFTTTJazzHands.h in Headers */ = {isa = PBXBuildFile; fileRef = FF31D7A77FC9E15C3E7E18D5 /* UIView+IFTTTJazzHands.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1A6C1ABD8820F153C16EF0C /* IFTTTAnimatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0859552252F4BCB2AA53ED6D /* IFTTTAnimatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E565BAD2B5D002DE53610C79 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5411A654B7A8D1CB4ADE5 /* Layout.swift */; };
+		E5C77DD086FC7B8F70C3DB6F /* IFTTTScrollViewPageConstraintAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3866337B9936EF326D8104DC /* IFTTTScrollViewPageConstraintAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		E648BB9F13AF5AB7A3FD9352 /* IFTTTScrollViewPageConstraintAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 57585179D15719B7C5358B91 /* IFTTTScrollViewPageConstraintAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85EF6C89174FC119BD4CEDF /* IFTTTAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E022353C28A9241C2ECC3E /* IFTTTAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E98E21D103E990D228D0F6C1 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD869A5DE8A1B082B635B65 /* Edge.swift */; };
+		ED49155AAE0FF358176AB4F8 /* IFTTTCornerRadiusAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FECBE2F8DAA6FF3A22897D02 /* IFTTTCornerRadiusAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		EEFA596BB5AB0AA3B7484AEF /* IFTTTAnimatedScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF987040D32DB44AEF3C662D /* IFTTTAnimatedScrollViewController.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		EF85D92593E49A51F820F8ED /* IFTTTTextColorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC99E20F028FB9FAADFB53E /* IFTTTTextColorAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		F562942830BF7B6C6FA9F786 /* PopAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D7D80D0E26DFBD415F3C8D /* PopAnimation.swift */; };
+		FAEDD94830434B79C1479E53 /* IFTTTStrokeEndAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F75B9202E8CB52774A475A0 /* IFTTTStrokeEndAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDCA45542FEC37AE9C1069BF /* IFTTTStrokeStartAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DA10C20045FA6792017FD7 /* IFTTTStrokeStartAnimation.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		FEE2BA3192BC15CC8C9DC634 /* IFTTTTranslationAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 96412C9BD3FFCECF4576BA2D /* IFTTTTranslationAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49ECE3F5E01BB7758D9AE37E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2BEA71F26236B813D04048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD8F72BA82F8DDA1EC77756;
+			remoteInfo = "Pods-Betafish-Pages";
+		};
+		5961D83CA55050EEBF874C5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2BEA71F26236B813D04048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB7578E73AF3D89AD6800D5;
+			remoteInfo = "Pods-Betafish-Cartography";
+		};
+		62B25EE766AC2FAF490242C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2BEA71F26236B813D04048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DCADD5562601D4ACE2F3009;
+			remoteInfo = "Pods-Betafish-Presentation";
+		};
+		6822194F8CE8D54926D4E76D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2BEA71F26236B813D04048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E67DAEA8D6C13F2C6F9400DA;
+			remoteInfo = "Pods-Betafish-ZLSwipeableView";
+		};
+		B3BBF8028ACDB51A7D907E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2BEA71F26236B813D04048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB7578E73AF3D89AD6800D5;
+			remoteInfo = "Pods-Betafish-Cartography";
+		};
+		D24FB120BFA0ABE9480A848F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2BEA71F26236B813D04048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19487269484B3DACFCEB6418;
+			remoteInfo = "Pods-Betafish-JazzHands";
+		};
+		F6BDE526FE32FAC93F3134B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C2BEA71F26236B813D04048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD8F72BA82F8DDA1EC77756;
+			remoteInfo = "Pods-Betafish-Pages";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003FF12749230B024E996A0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		01A51E050D5E6389915D6A8D /* IFTTTConstraintConstantAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTConstraintConstantAnimation.h; path = JazzHands/IFTTTConstraintConstantAnimation.h; sourceTree = "<group>"; };
+		02DA31C749256DFA2B13C3D2 /* Pods-Betafish-Pages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-Pages-umbrella.h"; sourceTree = "<group>"; };
+		076A1040A666EBB9386767BA /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		0859552252F4BCB2AA53ED6D /* IFTTTAnimatable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimatable.h; path = JazzHands/IFTTTAnimatable.h; sourceTree = "<group>"; };
+		0B1A2C67E3BFE0E4956C2477 /* IFTTTScaleAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTScaleAnimation.h; path = JazzHands/IFTTTScaleAnimation.h; sourceTree = "<group>"; };
+		0BC0210BB5076FB99C2F3470 /* IFTTTAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimator.h; path = JazzHands/IFTTTAnimator.h; sourceTree = "<group>"; };
+		0C55ADCEDD7B65384560771B /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		0C691C140A9F4669A803390C /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		0CC33DFA27C9F2C76E7F1EDC /* Pages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9BD0131173B0CBF9FC3DF5 /* IFTTTFillColorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTFillColorAnimation.m; path = JazzHands/IFTTTFillColorAnimation.m; sourceTree = "<group>"; };
+		0DA5411A654B7A8D1CB4ADE5 /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Cartography/Layout.swift; sourceTree = "<group>"; };
+		0E48D51BDE1BD0D5D2D8E711 /* Pods-Betafish-ZLSwipeableView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Betafish-ZLSwipeableView.modulemap"; sourceTree = "<group>"; };
+		0E9A8A84DA1F68B1EA9F60DB /* IFTTTConstraintMultiplierAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTConstraintMultiplierAnimation.m; path = JazzHands/IFTTTConstraintMultiplierAnimation.m; sourceTree = "<group>"; };
+		10D69FFA15C56E3B3E76178A /* IFTTTViewAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTViewAnimation.m; path = JazzHands/IFTTTViewAnimation.m; sourceTree = "<group>"; };
+		15BC6DED39F2457513A53747 /* Pods-Betafish-Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Betafish-Cartography-dummy.m"; sourceTree = "<group>"; };
+		17775960885D0FF079BF1F8A /* IFTTTTransform3DAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTTransform3DAnimation.m; path = JazzHands/IFTTTTransform3DAnimation.m; sourceTree = "<group>"; };
+		1ECF83F72E6851AFCBB4F2A1 /* IFTTTEasingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTEasingFunction.m; path = JazzHands/IFTTTEasingFunction.m; sourceTree = "<group>"; };
+		234EBBB3669CB09D0DB60C4F /* IFTTTAnimatedScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimatedScrollViewController.h; path = JazzHands/IFTTTAnimatedScrollViewController.h; sourceTree = "<group>"; };
+		25291449CCA6DF0B35DD2245 /* Pods-Betafish-ZLSwipeableView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-ZLSwipeableView-prefix.pch"; sourceTree = "<group>"; };
+		2B9E7449449511EF858A42E3 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		2BEC1BC2F190422FB89CC203 /* TransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimation.swift; path = Source/Animations/TransitionAnimation.swift; sourceTree = "<group>"; };
+		2F2C41F77EAB3D8AA06BA211 /* Pods-Betafish-JazzHands.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-JazzHands.xcconfig"; sourceTree = "<group>"; };
+		3359498F92B3359651EFDFE7 /* IFTTTFilmstrip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTFilmstrip.m; path = JazzHands/IFTTTFilmstrip.m; sourceTree = "<group>"; };
+		340602B1827E3231983C9573 /* Pods-Betafish-Pages-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-Pages-Private.xcconfig"; sourceTree = "<group>"; };
+		3866337B9936EF326D8104DC /* IFTTTScrollViewPageConstraintAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTScrollViewPageConstraintAnimation.m; path = JazzHands/IFTTTScrollViewPageConstraintAnimation.m; sourceTree = "<group>"; };
+		3DFE816039111C3A3423677B /* Pods-Betafish-Pages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-Pages-prefix.pch"; sourceTree = "<group>"; };
+		3E342CB71CB75AEC4043D080 /* IFTTTHideAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTHideAnimation.h; path = JazzHands/IFTTTHideAnimation.h; sourceTree = "<group>"; };
+		3FC1BF6E350F2FA9571F3951 /* Pods-Betafish-ZLSwipeableView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Betafish-ZLSwipeableView-dummy.m"; sourceTree = "<group>"; };
+		44FD188A4BA0C4FBE57B2803 /* UIView+IFTTTJazzHands.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+IFTTTJazzHands.m"; path = "JazzHands/UIView+IFTTTJazzHands.m"; sourceTree = "<group>"; };
+		454C4B53DE40892A0ECC706C /* ZLSwipeableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLSwipeableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45521D82BA92860FE645E682 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		47023500FBE959A1EC6B6271 /* Pods-Betafish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish.debug.xcconfig"; sourceTree = "<group>"; };
+		484A39D0B153AEC3A57C0C59 /* Pages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48996195CFD76111BBB69B66 /* CGPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtension.swift; path = Source/Extensions/CGPointExtension.swift; sourceTree = "<group>"; };
+		4AC7D076BE6B62B8B1897970 /* IFTTTColorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTColorAnimation.m; path = JazzHands/IFTTTColorAnimation.m; sourceTree = "<group>"; };
+		4DE5F04DA6CC86A5AA686C0A /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		5486974E066137D50178B757 /* ZLPanGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLPanGestureRecognizer.m; path = ZLSwipeableView/ZLPanGestureRecognizer.m; sourceTree = "<group>"; };
+		55CEA35F86ABADAECA659DE8 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		56C3215668EE013C5D5AEEF4 /* Pods-Betafish-Presentation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-Presentation-umbrella.h"; sourceTree = "<group>"; };
+		57585179D15719B7C5358B91 /* IFTTTScrollViewPageConstraintAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTScrollViewPageConstraintAnimation.h; path = JazzHands/IFTTTScrollViewPageConstraintAnimation.h; sourceTree = "<group>"; };
+		58E022353C28A9241C2ECC3E /* IFTTTAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimation.h; path = JazzHands/IFTTTAnimation.h; sourceTree = "<group>"; };
+		594B9D72DF12E99138A0DB98 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B691D4DDC79B987AE3CD491 /* IFTTTAlphaAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAlphaAnimation.h; path = JazzHands/IFTTTAlphaAnimation.h; sourceTree = "<group>"; };
+		5C13701D4868134D780127C0 /* IFTTTShapeLayerAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTShapeLayerAnimation.h; path = JazzHands/IFTTTShapeLayerAnimation.h; sourceTree = "<group>"; };
+		5D2023FCA72E81B46D37FDD0 /* IFTTTFillColorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTFillColorAnimation.h; path = JazzHands/IFTTTFillColorAnimation.h; sourceTree = "<group>"; };
+		5F678C7A1C23579C58F4C187 /* IFTTTHideAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTHideAnimation.m; path = JazzHands/IFTTTHideAnimation.m; sourceTree = "<group>"; };
+		5FAADED7C095BBF7D70E9CC8 /* Pods-Betafish-JazzHands-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-JazzHands-prefix.pch"; sourceTree = "<group>"; };
+		61AB23F552696369D93255BD /* IFTTTAlphaAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAlphaAnimation.m; path = JazzHands/IFTTTAlphaAnimation.m; sourceTree = "<group>"; };
+		62D11343ED80B9D5CF73422C /* IFTTTLabelAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTLabelAnimation.m; path = JazzHands/IFTTTLabelAnimation.m; sourceTree = "<group>"; };
+		63E20612DE5B1D3B520ADF9B /* ZLSwipeableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLSwipeableView.h; path = ZLSwipeableView/ZLSwipeableView.h; sourceTree = "<group>"; };
+		64B4980E985ECA08CE88E186 /* IFTTTTransform3DAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTTransform3DAnimation.h; path = JazzHands/IFTTTTransform3DAnimation.h; sourceTree = "<group>"; };
+		657A9389F99D4D25B43C71E5 /* Pods-Betafish-Presentation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-Presentation.xcconfig"; sourceTree = "<group>"; };
+		658DD77DB569D1A643DA7A6A /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		678886248B9A419B2F57BE67 /* Pods-Betafish-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-umbrella.h"; sourceTree = "<group>"; };
+		6BEA685B14EE7BDBDAB7FCD4 /* IFTTTStrokeStartAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTStrokeStartAnimation.h; path = JazzHands/IFTTTStrokeStartAnimation.h; sourceTree = "<group>"; };
+		6D35CD3A88EF597C06D6B806 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
+		6D8A56F127FBF7CEDACB0096 /* Pods-Betafish-JazzHands-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Betafish-JazzHands-dummy.m"; sourceTree = "<group>"; };
+		6E1142A5B7B01A8A2C0CD14B /* Presentation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Presentation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3A7E0237CBE4F65C526424 /* IFTTTJazzHands.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTJazzHands.h; path = JazzHands/IFTTTJazzHands.h; sourceTree = "<group>"; };
+		6EF9F95A04E3175479D0F83A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FBBAB35C9328FB0C5E859AE /* Pods-Betafish-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Betafish-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7376EE1AF1FFB9DF1118E5BC /* SlideController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideController.swift; path = Source/SlideController.swift; sourceTree = "<group>"; };
+		7432CAF4B8E5796C3FC8BA78 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = Source/PresentationController.swift; sourceTree = "<group>"; };
+		74DB32E4634333AEFBFBB1BB /* IFTTTShapeLayerAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTShapeLayerAnimation.m; path = JazzHands/IFTTTShapeLayerAnimation.m; sourceTree = "<group>"; };
+		74E429E7D532921159446CA8 /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		751EACD3BBC4D62F007D7F2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7601B0520684CBBFD75B3BEC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7728C2AC6ACFEDAA528186A7 /* IFTTTAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimator.m; path = JazzHands/IFTTTAnimator.m; sourceTree = "<group>"; };
+		77BD1B0FAF92FE210494614E /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		77F6646FC699587A153B1597 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		7822FB90AC6476EEEB2F1702 /* IFTTTFilmstrip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTFilmstrip.h; path = JazzHands/IFTTTFilmstrip.h; sourceTree = "<group>"; };
+		78EC215BEE0407EA3D06DB1A /* Pods-Betafish-Presentation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-Presentation-prefix.pch"; sourceTree = "<group>"; };
+		79B4337608014AF21128D6B1 /* IFTTTConstraintConstantAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTConstraintConstantAnimation.m; path = JazzHands/IFTTTConstraintConstantAnimation.m; sourceTree = "<group>"; };
+		7C7A9B076031A26964953E5A /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		7D2DA369C565BFF53682370E /* IFTTTAnimatedPagingScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimatedPagingScrollViewController.m; path = JazzHands/IFTTTAnimatedPagingScrollViewController.m; sourceTree = "<group>"; };
+		865A5703183069ED5D578C36 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		885A5C4BD859ACA47F01C8CA /* Pods-Betafish-Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Betafish-Cartography.modulemap"; sourceTree = "<group>"; };
+		8C2E44136B3386535523FC7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0C06E0D5E4819ABD9E83EE /* JazzHands.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JazzHands.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBC48D3714EC96DEF0080DA /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		8E0C52CC705D053159BAE409 /* Pods-Betafish-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-environment.h"; sourceTree = "<group>"; };
+		8F75B9202E8CB52774A475A0 /* IFTTTStrokeEndAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTStrokeEndAnimation.h; path = JazzHands/IFTTTStrokeEndAnimation.h; sourceTree = "<group>"; };
+		900F2AAFB87ECC5EE487B879 /* IFTTTConstraintMultiplierAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTConstraintMultiplierAnimation.h; path = JazzHands/IFTTTConstraintMultiplierAnimation.h; sourceTree = "<group>"; };
+		96412C9BD3FFCECF4576BA2D /* IFTTTTranslationAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTTranslationAnimation.h; path = JazzHands/IFTTTTranslationAnimation.h; sourceTree = "<group>"; };
+		9A4B4388A3AFD42B649B0025 /* Pods-Betafish-Cartography-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-Cartography-Private.xcconfig"; sourceTree = "<group>"; };
+		9D39C0690A9C63653C898DA6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9EACD5702F62A597E05A45B2 /* IFTTTViewAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTViewAnimation.h; path = JazzHands/IFTTTViewAnimation.h; sourceTree = "<group>"; };
+		A3BBECB4C778E149B79A6CAD /* IFTTTFrameAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTFrameAnimation.m; path = JazzHands/IFTTTFrameAnimation.m; sourceTree = "<group>"; };
+		A4D53CDAE6767B07D9C6931A /* IFTTTInterpolatable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTInterpolatable.h; path = JazzHands/IFTTTInterpolatable.h; sourceTree = "<group>"; };
+		A679C02C867897B14BB0F4AD /* Pods-Betafish-Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-Cartography.xcconfig"; sourceTree = "<group>"; };
+		A67CD4B1DEFF3B4251AD58BD /* IFTTTTranslationAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTTranslationAnimation.m; path = JazzHands/IFTTTTranslationAnimation.m; sourceTree = "<group>"; };
+		A7D53479622066A983190C0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC8BE09CA7AEA4F89269233 /* IFTTTScaleAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTScaleAnimation.m; path = JazzHands/IFTTTScaleAnimation.m; sourceTree = "<group>"; };
+		AC76EACB50DC8D4877C51616 /* IFTTTRotationAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTRotationAnimation.h; path = JazzHands/IFTTTRotationAnimation.h; sourceTree = "<group>"; };
+		ACEC52CE0F97A04466135470 /* Pods-Betafish-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Betafish-dummy.m"; sourceTree = "<group>"; };
+		AE8EE7B7D1AC283C69D02C76 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC80D433C0A0B767E0367C6 /* IFTTTStrokeEndAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTStrokeEndAnimation.m; path = JazzHands/IFTTTStrokeEndAnimation.m; sourceTree = "<group>"; };
+		B0DA10C20045FA6792017FD7 /* IFTTTStrokeStartAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTStrokeStartAnimation.m; path = JazzHands/IFTTTStrokeStartAnimation.m; sourceTree = "<group>"; };
+		B13EBE644A111BD08403FD88 /* Pods-Betafish-Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-Cartography-prefix.pch"; sourceTree = "<group>"; };
+		B20E5F9AE2711CFF323DD975 /* Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Position.swift; path = Source/Position.swift; sourceTree = "<group>"; };
+		B7D7D80D0E26DFBD415F3C8D /* PopAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopAnimation.swift; path = Source/Animations/PopAnimation.swift; sourceTree = "<group>"; };
+		B948B1A409E9598260B2433A /* PagesController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagesController.swift; path = Source/PagesController.swift; sourceTree = "<group>"; };
+		BACB3358DAE71A1C794548A5 /* IFTTTEasingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTEasingFunction.h; path = JazzHands/IFTTTEasingFunction.h; sourceTree = "<group>"; };
+		BC8F391363218C16700F1B2D /* Pods-Betafish-ZLSwipeableView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-ZLSwipeableView-umbrella.h"; sourceTree = "<group>"; };
+		BDF4425B3C9093BFB9329910 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
+		BF987040D32DB44AEF3C662D /* IFTTTAnimatedScrollViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimatedScrollViewController.m; path = JazzHands/IFTTTAnimatedScrollViewController.m; sourceTree = "<group>"; };
+		C041220D76A2682FFCD9A962 /* Pods-Betafish-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Betafish-frameworks.sh"; sourceTree = "<group>"; };
+		C06F4CB8C25208FFFF0C227C /* Pods-Betafish-Pages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-Pages.xcconfig"; sourceTree = "<group>"; };
+		C4A3C0522E16ECFBD0046445 /* Pods-Betafish-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Betafish-resources.sh"; sourceTree = "<group>"; };
+		C730DF9B72F853A24113F647 /* IFTTTColorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTColorAnimation.h; path = JazzHands/IFTTTColorAnimation.h; sourceTree = "<group>"; };
+		C748F30A85751873D984E720 /* IFTTTFrameAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTFrameAnimation.h; path = JazzHands/IFTTTFrameAnimation.h; sourceTree = "<group>"; };
+		C7D299EDE7213AD5D1E7DE50 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C7FDFCB5E8EA96F6FDC957C1 /* IFTTTRotationAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTRotationAnimation.m; path = JazzHands/IFTTTRotationAnimation.m; sourceTree = "<group>"; };
+		C854BB67E1791F0BD1D6D800 /* Pods-Betafish-ZLSwipeableView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-ZLSwipeableView.xcconfig"; sourceTree = "<group>"; };
+		C867764A4DC1408D4B161814 /* Pods_Betafish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Betafish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC99E20F028FB9FAADFB53E /* IFTTTTextColorAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTTextColorAnimation.m; path = JazzHands/IFTTTTextColorAnimation.m; sourceTree = "<group>"; };
+		CFE2569238407C68A7238DC8 /* Pods-Betafish-Pages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Betafish-Pages-dummy.m"; sourceTree = "<group>"; };
+		D0E7D0BAE5BFB2FED2EAE00D /* Pods-Betafish-Presentation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Betafish-Presentation.modulemap"; sourceTree = "<group>"; };
+		D173B862D7D7D3610A3B8C92 /* ZLPanGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZLPanGestureRecognizer.h; path = ZLSwipeableView/ZLPanGestureRecognizer.h; sourceTree = "<group>"; };
+		D2C800FD305DD166EE799372 /* Pods-Betafish-Pages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Betafish-Pages.modulemap"; sourceTree = "<group>"; };
+		D8D9A859AAD40B2FE074C3A4 /* Pods-Betafish-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Betafish-acknowledgements.plist"; sourceTree = "<group>"; };
+		D8FE91B6DF09A8C83CC232E4 /* Pods-Betafish.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Betafish.modulemap"; sourceTree = "<group>"; };
+		D99FB073753B9A12B3EEED90 /* Pods-Betafish-Presentation-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-Presentation-Private.xcconfig"; sourceTree = "<group>"; };
+		DA85136A3EFDE7309884038F /* Pods-Betafish-JazzHands-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-JazzHands-Private.xcconfig"; sourceTree = "<group>"; };
+		DB9A84688AA0B93051CAA23E /* Pods-Betafish-Presentation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Betafish-Presentation-dummy.m"; sourceTree = "<group>"; };
+		DC12DB5292AA05954FF378D0 /* Pods-Betafish-ZLSwipeableView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish-ZLSwipeableView-Private.xcconfig"; sourceTree = "<group>"; };
+		E0132D85BB9221C4AC677FF3 /* Pods-Betafish-JazzHands-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-JazzHands-umbrella.h"; sourceTree = "<group>"; };
+		E0DC7FF5493090B1A6F2E024 /* IFTTTLabelAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTLabelAnimation.h; path = JazzHands/IFTTTLabelAnimation.h; sourceTree = "<group>"; };
+		E3B0617020D553801A4C96A3 /* Animatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animatable.swift; path = Source/Animations/Animatable.swift; sourceTree = "<group>"; };
+		E54EDB8DD34A25D21A86420E /* Content.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Content.swift; path = Source/Content.swift; sourceTree = "<group>"; };
+		E5C3D9F1D43A1341235F39D9 /* Pods-Betafish-Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Betafish-Cartography-umbrella.h"; sourceTree = "<group>"; };
+		E7927996FF10DE6A67A222DC /* IFTTTAnimatedPagingScrollViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTAnimatedPagingScrollViewController.h; path = JazzHands/IFTTTAnimatedPagingScrollViewController.h; sourceTree = "<group>"; };
+		E7E5B1F260BFCC978EAF432B /* ZLSwipeableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZLSwipeableView.m; path = ZLSwipeableView/ZLSwipeableView.m; sourceTree = "<group>"; };
+		E96B7CDDB0E1437458E2F376 /* IFTTTCornerRadiusAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTCornerRadiusAnimation.h; path = JazzHands/IFTTTCornerRadiusAnimation.h; sourceTree = "<group>"; };
+		E974F03666A0AF624362D680 /* IFTTTTextColorAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IFTTTTextColorAnimation.h; path = JazzHands/IFTTTTextColorAnimation.h; sourceTree = "<group>"; };
+		EA9F131D26D0E1619ADECE27 /* Pods-Betafish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Betafish.release.xcconfig"; sourceTree = "<group>"; };
+		EBD869A5DE8A1B082B635B65 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		ED20B518F225C5FBD6974A16 /* IFTTTAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTAnimation.m; path = JazzHands/IFTTTAnimation.m; sourceTree = "<group>"; };
+		EE508C15E93C6B10D1EB1350 /* DissolveAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DissolveAnimation.swift; path = Source/Animations/DissolveAnimation.swift; sourceTree = "<group>"; };
+		EEBEF10DDD09B813A55F0332 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F21E4E38CAF6825D43DF53DB /* IFTTTInterpolatable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTInterpolatable.m; path = JazzHands/IFTTTInterpolatable.m; sourceTree = "<group>"; };
+		F320C6B35A9739848B6EA7CC /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		F53A76BF395211433D34B79C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FD38AF6B8EF78A5F2E3833DA /* Pods-Betafish-JazzHands.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Betafish-JazzHands.modulemap"; sourceTree = "<group>"; };
+		FD7DDCF31C868A0109CAFED2 /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		FE0F4DE5B7FA339BCFB71D23 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		FECBE2F8DAA6FF3A22897D02 /* IFTTTCornerRadiusAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IFTTTCornerRadiusAnimation.m; path = JazzHands/IFTTTCornerRadiusAnimation.m; sourceTree = "<group>"; };
+		FF31D7A77FC9E15C3E7E18D5 /* UIView+IFTTTJazzHands.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+IFTTTJazzHands.h"; path = "JazzHands/UIView+IFTTTJazzHands.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19E4252D18791DE5A220A0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BE682192FCCAAC374A7BB5 /* CoreGraphics.framework in Frameworks */,
+				7D865150915C177A9818C760 /* Foundation.framework in Frameworks */,
+				6783E4D36AD2B3EE49DAE428 /* QuartzCore.framework in Frameworks */,
+				A643C7EF4DDA719A56712257 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25AFE84E70AD32E91717823F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				379E88F3C8FFE240D9FFB377 /* Cartography.framework in Frameworks */,
+				282008C43958C1F67C990F45 /* Foundation.framework in Frameworks */,
+				B333CB114E4105CF5621E410 /* Pages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4971ED6207D12DF45B399349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF48F097CE104FE07E73F89 /* Foundation.framework in Frameworks */,
+				DD55B11A33EEBCAE0DA51A65 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2AEA6413CD9BA627851FFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9CCE05C81448DC9EA094B5 /* Foundation.framework in Frameworks */,
+				4BC82745A407BBEE0028F976 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A754BFEA15A3D28E8A8486C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DD7C354A4D6C0B1FA2B872 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D67746B8FAA28CC1B3CA83E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEB5EA2E805A7A4FA9D04B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F3BA3D7BFC29A4C81B5C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74E429E7D532921159446CA8 /* Cartography.framework */,
+				0CC33DFA27C9F2C76E7F1EDC /* Pages.framework */,
+				8FFD2666088A2F719BA23298 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D7AD7ED1731BA0581F4DF9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F447D939A53987D5FF64F0E /* Cartography */,
+				763E88F4B53903576009A588 /* JazzHands */,
+				8453B1DE40AC8A94FACA8B34 /* Pages */,
+				4DA5CA42A7C9F5BD2611100E /* Presentation */,
+				D40D1C10970D131579D8D4C3 /* ZLSwipeableView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F3689A132E9950A798820C8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EF9F95A04E3175479D0F83A /* Info.plist */,
+				FD38AF6B8EF78A5F2E3833DA /* Pods-Betafish-JazzHands.modulemap */,
+				2F2C41F77EAB3D8AA06BA211 /* Pods-Betafish-JazzHands.xcconfig */,
+				DA85136A3EFDE7309884038F /* Pods-Betafish-JazzHands-Private.xcconfig */,
+				6D8A56F127FBF7CEDACB0096 /* Pods-Betafish-JazzHands-dummy.m */,
+				5FAADED7C095BBF7D70E9CC8 /* Pods-Betafish-JazzHands-prefix.pch */,
+				E0132D85BB9221C4AC677FF3 /* Pods-Betafish-JazzHands-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Betafish-JazzHands";
+			sourceTree = "<group>";
+		};
+		3F447D939A53987D5FF64F0E /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC48D3714EC96DEF0080DA /* Align.swift */,
+				55CEA35F86ABADAECA659DE8 /* Coefficients.swift */,
+				77F6646FC699587A153B1597 /* Compound.swift */,
+				865A5703183069ED5D578C36 /* Constraint.swift */,
+				2B9E7449449511EF858A42E3 /* ConstraintGroup.swift */,
+				0C55ADCEDD7B65384560771B /* Context.swift */,
+				0C691C140A9F4669A803390C /* Dimension.swift */,
+				658DD77DB569D1A643DA7A6A /* Distribute.swift */,
+				EBD869A5DE8A1B082B635B65 /* Edge.swift */,
+				4DE5F04DA6CC86A5AA686C0A /* Edges.swift */,
+				7C7A9B076031A26964953E5A /* Expression.swift */,
+				F320C6B35A9739848B6EA7CC /* Extensions.swift */,
+				0DA5411A654B7A8D1CB4ADE5 /* Layout.swift */,
+				076A1040A666EBB9386767BA /* LayoutProxy.swift */,
+				FE0F4DE5B7FA339BCFB71D23 /* Point.swift */,
+				6D35CD3A88EF597C06D6B806 /* Priority.swift */,
+				77BD1B0FAF92FE210494614E /* Property.swift */,
+				BDF4425B3C9093BFB9329910 /* Size.swift */,
+				45521D82BA92860FE645E682 /* View.swift */,
+				FD7DDCF31C868A0109CAFED2 /* ViewUtils.swift */,
+				765FA918AE553B94DF75121C /* Support Files */,
+			);
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		4DA5CA42A7C9F5BD2611100E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E3B0617020D553801A4C96A3 /* Animatable.swift */,
+				48996195CFD76111BBB69B66 /* CGPointExtension.swift */,
+				E54EDB8DD34A25D21A86420E /* Content.swift */,
+				EE508C15E93C6B10D1EB1350 /* DissolveAnimation.swift */,
+				B7D7D80D0E26DFBD415F3C8D /* PopAnimation.swift */,
+				B20E5F9AE2711CFF323DD975 /* Position.swift */,
+				7432CAF4B8E5796C3FC8BA78 /* PresentationController.swift */,
+				7376EE1AF1FFB9DF1118E5BC /* SlideController.swift */,
+				2BEC1BC2F190422FB89CC203 /* TransitionAnimation.swift */,
+				AC0C64A69F8EE7FC3EC9924C /* Support Files */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		763E88F4B53903576009A588 /* JazzHands */ = {
+			isa = PBXGroup;
+			children = (
+				5B691D4DDC79B987AE3CD491 /* IFTTTAlphaAnimation.h */,
+				61AB23F552696369D93255BD /* IFTTTAlphaAnimation.m */,
+				0859552252F4BCB2AA53ED6D /* IFTTTAnimatable.h */,
+				E7927996FF10DE6A67A222DC /* IFTTTAnimatedPagingScrollViewController.h */,
+				7D2DA369C565BFF53682370E /* IFTTTAnimatedPagingScrollViewController.m */,
+				234EBBB3669CB09D0DB60C4F /* IFTTTAnimatedScrollViewController.h */,
+				BF987040D32DB44AEF3C662D /* IFTTTAnimatedScrollViewController.m */,
+				58E022353C28A9241C2ECC3E /* IFTTTAnimation.h */,
+				ED20B518F225C5FBD6974A16 /* IFTTTAnimation.m */,
+				0BC0210BB5076FB99C2F3470 /* IFTTTAnimator.h */,
+				7728C2AC6ACFEDAA528186A7 /* IFTTTAnimator.m */,
+				C730DF9B72F853A24113F647 /* IFTTTColorAnimation.h */,
+				4AC7D076BE6B62B8B1897970 /* IFTTTColorAnimation.m */,
+				01A51E050D5E6389915D6A8D /* IFTTTConstraintConstantAnimation.h */,
+				79B4337608014AF21128D6B1 /* IFTTTConstraintConstantAnimation.m */,
+				900F2AAFB87ECC5EE487B879 /* IFTTTConstraintMultiplierAnimation.h */,
+				0E9A8A84DA1F68B1EA9F60DB /* IFTTTConstraintMultiplierAnimation.m */,
+				E96B7CDDB0E1437458E2F376 /* IFTTTCornerRadiusAnimation.h */,
+				FECBE2F8DAA6FF3A22897D02 /* IFTTTCornerRadiusAnimation.m */,
+				BACB3358DAE71A1C794548A5 /* IFTTTEasingFunction.h */,
+				1ECF83F72E6851AFCBB4F2A1 /* IFTTTEasingFunction.m */,
+				5D2023FCA72E81B46D37FDD0 /* IFTTTFillColorAnimation.h */,
+				0D9BD0131173B0CBF9FC3DF5 /* IFTTTFillColorAnimation.m */,
+				7822FB90AC6476EEEB2F1702 /* IFTTTFilmstrip.h */,
+				3359498F92B3359651EFDFE7 /* IFTTTFilmstrip.m */,
+				C748F30A85751873D984E720 /* IFTTTFrameAnimation.h */,
+				A3BBECB4C778E149B79A6CAD /* IFTTTFrameAnimation.m */,
+				3E342CB71CB75AEC4043D080 /* IFTTTHideAnimation.h */,
+				5F678C7A1C23579C58F4C187 /* IFTTTHideAnimation.m */,
+				A4D53CDAE6767B07D9C6931A /* IFTTTInterpolatable.h */,
+				F21E4E38CAF6825D43DF53DB /* IFTTTInterpolatable.m */,
+				6E3A7E0237CBE4F65C526424 /* IFTTTJazzHands.h */,
+				E0DC7FF5493090B1A6F2E024 /* IFTTTLabelAnimation.h */,
+				62D11343ED80B9D5CF73422C /* IFTTTLabelAnimation.m */,
+				AC76EACB50DC8D4877C51616 /* IFTTTRotationAnimation.h */,
+				C7FDFCB5E8EA96F6FDC957C1 /* IFTTTRotationAnimation.m */,
+				0B1A2C67E3BFE0E4956C2477 /* IFTTTScaleAnimation.h */,
+				AAC8BE09CA7AEA4F89269233 /* IFTTTScaleAnimation.m */,
+				57585179D15719B7C5358B91 /* IFTTTScrollViewPageConstraintAnimation.h */,
+				3866337B9936EF326D8104DC /* IFTTTScrollViewPageConstraintAnimation.m */,
+				5C13701D4868134D780127C0 /* IFTTTShapeLayerAnimation.h */,
+				74DB32E4634333AEFBFBB1BB /* IFTTTShapeLayerAnimation.m */,
+				8F75B9202E8CB52774A475A0 /* IFTTTStrokeEndAnimation.h */,
+				AFC80D433C0A0B767E0367C6 /* IFTTTStrokeEndAnimation.m */,
+				6BEA685B14EE7BDBDAB7FCD4 /* IFTTTStrokeStartAnimation.h */,
+				B0DA10C20045FA6792017FD7 /* IFTTTStrokeStartAnimation.m */,
+				E974F03666A0AF624362D680 /* IFTTTTextColorAnimation.h */,
+				CDC99E20F028FB9FAADFB53E /* IFTTTTextColorAnimation.m */,
+				64B4980E985ECA08CE88E186 /* IFTTTTransform3DAnimation.h */,
+				17775960885D0FF079BF1F8A /* IFTTTTransform3DAnimation.m */,
+				96412C9BD3FFCECF4576BA2D /* IFTTTTranslationAnimation.h */,
+				A67CD4B1DEFF3B4251AD58BD /* IFTTTTranslationAnimation.m */,
+				9EACD5702F62A597E05A45B2 /* IFTTTViewAnimation.h */,
+				10D69FFA15C56E3B3E76178A /* IFTTTViewAnimation.m */,
+				FF31D7A77FC9E15C3E7E18D5 /* UIView+IFTTTJazzHands.h */,
+				44FD188A4BA0C4FBE57B2803 /* UIView+IFTTTJazzHands.m */,
+				0F3689A132E9950A798820C8 /* Support Files */,
+			);
+			path = JazzHands;
+			sourceTree = "<group>";
+		};
+		765FA918AE553B94DF75121C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7D53479622066A983190C0C /* Info.plist */,
+				885A5C4BD859ACA47F01C8CA /* Pods-Betafish-Cartography.modulemap */,
+				A679C02C867897B14BB0F4AD /* Pods-Betafish-Cartography.xcconfig */,
+				9A4B4388A3AFD42B649B0025 /* Pods-Betafish-Cartography-Private.xcconfig */,
+				15BC6DED39F2457513A53747 /* Pods-Betafish-Cartography-dummy.m */,
+				B13EBE644A111BD08403FD88 /* Pods-Betafish-Cartography-prefix.pch */,
+				E5C3D9F1D43A1341235F39D9 /* Pods-Betafish-Cartography-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Betafish-Cartography";
+			sourceTree = "<group>";
+		};
+		8453B1DE40AC8A94FACA8B34 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B948B1A409E9598260B2433A /* PagesController.swift */,
+				DD95B8801EEDB1F4123A4D7A /* Support Files */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		8FFD2666088A2F719BA23298 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9D39C0690A9C63653C898DA6 /* CoreGraphics.framework */,
+				003FF12749230B024E996A0F /* Foundation.framework */,
+				F53A76BF395211433D34B79C /* QuartzCore.framework */,
+				EEBEF10DDD09B813A55F0332 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		92132D1D02F910E62E41582E /* Pods-Betafish */ = {
+			isa = PBXGroup;
+			children = (
+				751EACD3BBC4D62F007D7F2E /* Info.plist */,
+				D8FE91B6DF09A8C83CC232E4 /* Pods-Betafish.modulemap */,
+				6FBBAB35C9328FB0C5E859AE /* Pods-Betafish-acknowledgements.markdown */,
+				D8D9A859AAD40B2FE074C3A4 /* Pods-Betafish-acknowledgements.plist */,
+				ACEC52CE0F97A04466135470 /* Pods-Betafish-dummy.m */,
+				8E0C52CC705D053159BAE409 /* Pods-Betafish-environment.h */,
+				C041220D76A2682FFCD9A962 /* Pods-Betafish-frameworks.sh */,
+				C4A3C0522E16ECFBD0046445 /* Pods-Betafish-resources.sh */,
+				678886248B9A419B2F57BE67 /* Pods-Betafish-umbrella.h */,
+				47023500FBE959A1EC6B6271 /* Pods-Betafish.debug.xcconfig */,
+				EA9F131D26D0E1619ADECE27 /* Pods-Betafish.release.xcconfig */,
+			);
+			name = "Pods-Betafish";
+			path = "Target Support Files/Pods-Betafish";
+			sourceTree = "<group>";
+		};
+		9334C69D124F75043AAC7EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				594B9D72DF12E99138A0DB98 /* Cartography.framework */,
+				8D0C06E0D5E4819ABD9E83EE /* JazzHands.framework */,
+				484A39D0B153AEC3A57C0C59 /* Pages.framework */,
+				C867764A4DC1408D4B161814 /* Pods_Betafish.framework */,
+				6E1142A5B7B01A8A2C0CD14B /* Presentation.framework */,
+				454C4B53DE40892A0ECC706C /* ZLSwipeableView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0C64A69F8EE7FC3EC9924C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C2E44136B3386535523FC7A /* Info.plist */,
+				D0E7D0BAE5BFB2FED2EAE00D /* Pods-Betafish-Presentation.modulemap */,
+				657A9389F99D4D25B43C71E5 /* Pods-Betafish-Presentation.xcconfig */,
+				D99FB073753B9A12B3EEED90 /* Pods-Betafish-Presentation-Private.xcconfig */,
+				DB9A84688AA0B93051CAA23E /* Pods-Betafish-Presentation-dummy.m */,
+				78EC215BEE0407EA3D06DB1A /* Pods-Betafish-Presentation-prefix.pch */,
+				56C3215668EE013C5D5AEEF4 /* Pods-Betafish-Presentation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Betafish-Presentation";
+			sourceTree = "<group>";
+		};
+		B0D9226191D9BED514E2C620 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92132D1D02F910E62E41582E /* Pods-Betafish */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CAC90B1C56BADEFC35D99206 = {
+			isa = PBXGroup;
+			children = (
+				C7D299EDE7213AD5D1E7DE50 /* Podfile */,
+				01F3BA3D7BFC29A4C81B5C50 /* Frameworks */,
+				0D7AD7ED1731BA0581F4DF9C /* Pods */,
+				9334C69D124F75043AAC7EC3 /* Products */,
+				B0D9226191D9BED514E2C620 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CE322694828ACC31A0B508CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7601B0520684CBBFD75B3BEC /* Info.plist */,
+				0E48D51BDE1BD0D5D2D8E711 /* Pods-Betafish-ZLSwipeableView.modulemap */,
+				C854BB67E1791F0BD1D6D800 /* Pods-Betafish-ZLSwipeableView.xcconfig */,
+				DC12DB5292AA05954FF378D0 /* Pods-Betafish-ZLSwipeableView-Private.xcconfig */,
+				3FC1BF6E350F2FA9571F3951 /* Pods-Betafish-ZLSwipeableView-dummy.m */,
+				25291449CCA6DF0B35DD2245 /* Pods-Betafish-ZLSwipeableView-prefix.pch */,
+				BC8F391363218C16700F1B2D /* Pods-Betafish-ZLSwipeableView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Betafish-ZLSwipeableView";
+			sourceTree = "<group>";
+		};
+		D40D1C10970D131579D8D4C3 /* ZLSwipeableView */ = {
+			isa = PBXGroup;
+			children = (
+				D173B862D7D7D3610A3B8C92 /* ZLPanGestureRecognizer.h */,
+				5486974E066137D50178B757 /* ZLPanGestureRecognizer.m */,
+				63E20612DE5B1D3B520ADF9B /* ZLSwipeableView.h */,
+				E7E5B1F260BFCC978EAF432B /* ZLSwipeableView.m */,
+				CE322694828ACC31A0B508CF /* Support Files */,
+			);
+			path = ZLSwipeableView;
+			sourceTree = "<group>";
+		};
+		DD95B8801EEDB1F4123A4D7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE8EE7B7D1AC283C69D02C76 /* Info.plist */,
+				D2C800FD305DD166EE799372 /* Pods-Betafish-Pages.modulemap */,
+				C06F4CB8C25208FFFF0C227C /* Pods-Betafish-Pages.xcconfig */,
+				340602B1827E3231983C9573 /* Pods-Betafish-Pages-Private.xcconfig */,
+				CFE2569238407C68A7238DC8 /* Pods-Betafish-Pages-dummy.m */,
+				3DFE816039111C3A3423677B /* Pods-Betafish-Pages-prefix.pch */,
+				02DA31C749256DFA2B13C3D2 /* Pods-Betafish-Pages-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Betafish-Pages";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A2086A3A6881D62D5233B2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88776BBDB265D04BF9155B48 /* Pods-Betafish-Presentation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B82A3CE9FC5886445768503 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11963A64B04F2D655537FDD2 /* Pods-Betafish-Pages-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD0C51D1EB136D7EEDF2BCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E31676B1583F5546B9A09EA /* Pods-Betafish-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA51C8F3672922462A58CFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287065984B5BC1D00D991786 /* IFTTTAlphaAnimation.h in Headers */,
+				E1A6C1ABD8820F153C16EF0C /* IFTTTAnimatable.h in Headers */,
+				983B14E77EFAF5FABCBF4949 /* IFTTTAnimatedPagingScrollViewController.h in Headers */,
+				96656C21C4360647024A54D1 /* IFTTTAnimatedScrollViewController.h in Headers */,
+				E85EF6C89174FC119BD4CEDF /* IFTTTAnimation.h in Headers */,
+				D0F68C1445A8BF389856430A /* IFTTTAnimator.h in Headers */,
+				BF67B12D34D268197E89CFA6 /* IFTTTColorAnimation.h in Headers */,
+				DB166C8850B560A80EF10682 /* IFTTTConstraintConstantAnimation.h in Headers */,
+				CBD36EAA5EE9F3FE29EBC09B /* IFTTTConstraintMultiplierAnimation.h in Headers */,
+				6DBEC3C439AFB9C18413BC6A /* IFTTTCornerRadiusAnimation.h in Headers */,
+				606580FFA61D83FD8DCF3080 /* IFTTTEasingFunction.h in Headers */,
+				412320EADFA6B756BD53C76F /* IFTTTFillColorAnimation.h in Headers */,
+				630072883C8D24555ADBA52F /* IFTTTFilmstrip.h in Headers */,
+				AC9122EBC9A61ED10BB80BA7 /* IFTTTFrameAnimation.h in Headers */,
+				344C0E105D331E1D08EB166F /* IFTTTHideAnimation.h in Headers */,
+				D95177C25ABC87874BF82032 /* IFTTTInterpolatable.h in Headers */,
+				4611E8756E5FE4C1D6D27036 /* IFTTTJazzHands.h in Headers */,
+				C6A0DCF0540F87CE575429D9 /* IFTTTLabelAnimation.h in Headers */,
+				70A123C89C01D6C9C43EF008 /* IFTTTRotationAnimation.h in Headers */,
+				AE4673F72885536A22A0CE11 /* IFTTTScaleAnimation.h in Headers */,
+				E648BB9F13AF5AB7A3FD9352 /* IFTTTScrollViewPageConstraintAnimation.h in Headers */,
+				2F9B7B00F084E67EA3B35A51 /* IFTTTShapeLayerAnimation.h in Headers */,
+				FAEDD94830434B79C1479E53 /* IFTTTStrokeEndAnimation.h in Headers */,
+				D0CBC3409153BBA19F35CBD2 /* IFTTTStrokeStartAnimation.h in Headers */,
+				9F06F5A6B6CB8C99B0E5CD46 /* IFTTTTextColorAnimation.h in Headers */,
+				55B844F0104A083E8C245CCF /* IFTTTTransform3DAnimation.h in Headers */,
+				FEE2BA3192BC15CC8C9DC634 /* IFTTTTranslationAnimation.h in Headers */,
+				39C67C0D43C5E47514BDF48B /* IFTTTViewAnimation.h in Headers */,
+				3F692C059F6E03670EA53E7B /* Pods-Betafish-JazzHands-umbrella.h in Headers */,
+				DF57C430669722E0D716DF49 /* UIView+IFTTTJazzHands.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08BE3C4A567CD40A71DF320 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DA4144658D43C19F342AB6 /* Pods-Betafish-ZLSwipeableView-umbrella.h in Headers */,
+				006E989F4F461776FAD5BDBC /* ZLPanGestureRecognizer.h in Headers */,
+				31333854BE17DF2CB28728D7 /* ZLSwipeableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84B3826E7B5B45BA32FE62 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB5F15930F253E640C0AE02 /* Pods-Betafish-Cartography-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19487269484B3DACFCEB6418 /* Pods-Betafish-JazzHands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55580559A98BD6035BE449E5 /* Build configuration list for PBXNativeTarget "Pods-Betafish-JazzHands" */;
+			buildPhases = (
+				EB588D7AB69D757BE2783705 /* Sources */,
+				19E4252D18791DE5A220A0EC /* Frameworks */,
+				ECA51C8F3672922462A58CFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Betafish-JazzHands";
+			productName = "Pods-Betafish-JazzHands";
+			productReference = 8D0C06E0D5E4819ABD9E83EE /* JazzHands.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DCADD5562601D4ACE2F3009 /* Pods-Betafish-Presentation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD3B3F07DD9D6876591A61F /* Build configuration list for PBXNativeTarget "Pods-Betafish-Presentation" */;
+			buildPhases = (
+				368687739B21B8D6B4FB552D /* Sources */,
+				25AFE84E70AD32E91717823F /* Frameworks */,
+				4A2086A3A6881D62D5233B2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C87DE5705A6A02BE6A08231 /* PBXTargetDependency */,
+				857A8E86AD1A7C96BF620146 /* PBXTargetDependency */,
+			);
+			name = "Pods-Betafish-Presentation";
+			productName = "Pods-Betafish-Presentation";
+			productReference = 6E1142A5B7B01A8A2C0CD14B /* Presentation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EB7578E73AF3D89AD6800D5 /* Pods-Betafish-Cartography */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4258D49AF84ACC7B89899879 /* Build configuration list for PBXNativeTarget "Pods-Betafish-Cartography" */;
+			buildPhases = (
+				DF31ECEFAC8C564D993605E1 /* Sources */,
+				D67746B8FAA28CC1B3CA83E7 /* Frameworks */,
+				FD84B3826E7B5B45BA32FE62 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Betafish-Cartography";
+			productName = "Pods-Betafish-Cartography";
+			productReference = 594B9D72DF12E99138A0DB98 /* Cartography.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBD8F72BA82F8DDA1EC77756 /* Pods-Betafish-Pages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37971F36AB185C82BE1D8E77 /* Build configuration list for PBXNativeTarget "Pods-Betafish-Pages" */;
+			buildPhases = (
+				69086E1F389A514EAAF77ABD /* Sources */,
+				4971ED6207D12DF45B399349 /* Frameworks */,
+				9B82A3CE9FC5886445768503 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Betafish-Pages";
+			productName = "Pods-Betafish-Pages";
+			productReference = 484A39D0B153AEC3A57C0C59 /* Pages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E67DAEA8D6C13F2C6F9400DA /* Pods-Betafish-ZLSwipeableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE63CBC35004E695D1148CB7 /* Build configuration list for PBXNativeTarget "Pods-Betafish-ZLSwipeableView" */;
+			buildPhases = (
+				55A46622898395A5544AC28D /* Sources */,
+				A2AEA6413CD9BA627851FFAC /* Frameworks */,
+				F08BE3C4A567CD40A71DF320 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Betafish-ZLSwipeableView";
+			productName = "Pods-Betafish-ZLSwipeableView";
+			productReference = 454C4B53DE40892A0ECC706C /* ZLSwipeableView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F42DDB822F5AA79CBC229B32 /* Pods-Betafish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ADD32E0FC466F56456556D3 /* Build configuration list for PBXNativeTarget "Pods-Betafish" */;
+			buildPhases = (
+				22123B53B9CB74B4A083D37B /* Sources */,
+				A754BFEA15A3D28E8A8486C5 /* Frameworks */,
+				CDD0C51D1EB136D7EEDF2BCD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B35ECDCA406DDEB8F1F38F /* PBXTargetDependency */,
+				D47FE4E271505721DB8703CF /* PBXTargetDependency */,
+				0DEC8255FD2AA29ED81F2C8F /* PBXTargetDependency */,
+				6D1FACAC3291F4844356DC19 /* PBXTargetDependency */,
+				37C2051F3638A4350B739D50 /* PBXTargetDependency */,
+			);
+			name = "Pods-Betafish";
+			productName = "Pods-Betafish";
+			productReference = C867764A4DC1408D4B161814 /* Pods_Betafish.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C2BEA71F26236B813D04048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = BAA1C0921D4A8E5D1E026C45 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAC90B1C56BADEFC35D99206;
+			productRefGroup = 9334C69D124F75043AAC7EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42DDB822F5AA79CBC229B32 /* Pods-Betafish */,
+				6EB7578E73AF3D89AD6800D5 /* Pods-Betafish-Cartography */,
+				19487269484B3DACFCEB6418 /* Pods-Betafish-JazzHands */,
+				CBD8F72BA82F8DDA1EC77756 /* Pods-Betafish-Pages */,
+				5DCADD5562601D4ACE2F3009 /* Pods-Betafish-Presentation */,
+				E67DAEA8D6C13F2C6F9400DA /* Pods-Betafish-ZLSwipeableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22123B53B9CB74B4A083D37B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC0E9891F0F33D4EA22F220 /* Pods-Betafish-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368687739B21B8D6B4FB552D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B485C5A846E9745AFEFB26E /* Animatable.swift in Sources */,
+				A3101EA1564B69B9D113CED3 /* CGPointExtension.swift in Sources */,
+				D60238C9D98949D162CCC121 /* Content.swift in Sources */,
+				BF3291F573582CD6CA2B26CF /* DissolveAnimation.swift in Sources */,
+				80A84BC89ACEA777B0D96F75 /* Pods-Betafish-Presentation-dummy.m in Sources */,
+				F562942830BF7B6C6FA9F786 /* PopAnimation.swift in Sources */,
+				5F8466972D253ECC53C731FC /* Position.swift in Sources */,
+				2D5F765B72D13C25C1411431 /* PresentationController.swift in Sources */,
+				7B24A5FF3FC5CB6FB84B0EE5 /* SlideController.swift in Sources */,
+				0D59B8564602D9F897D2AF5B /* TransitionAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55A46622898395A5544AC28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D488D76C58F27ABF16B4BCF /* Pods-Betafish-ZLSwipeableView-dummy.m in Sources */,
+				2BACA5B4193D80617E8851CA /* ZLPanGestureRecognizer.m in Sources */,
+				4C358147818D5CBA1E918C24 /* ZLSwipeableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69086E1F389A514EAAF77ABD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4AD7F12321F811784C36EC /* PagesController.swift in Sources */,
+				33A7CBD6A624CFF508E9D491 /* Pods-Betafish-Pages-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF31ECEFAC8C564D993605E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ACA8205318AFC27E4D2959 /* Align.swift in Sources */,
+				823B2E7701BD412B56386701 /* Coefficients.swift in Sources */,
+				0D7EDCFDF272525C08E8E5BD /* Compound.swift in Sources */,
+				23AEADFFBE5F78FBFEB5B32C /* Constraint.swift in Sources */,
+				2AC2F8080AA459C278CD8BAD /* ConstraintGroup.swift in Sources */,
+				AC94CF62BCC0635B224B95DB /* Context.swift in Sources */,
+				5E2C4B941FC72FEF0E374C45 /* Dimension.swift in Sources */,
+				99C760F3A4E76660130FB33E /* Distribute.swift in Sources */,
+				E98E21D103E990D228D0F6C1 /* Edge.swift in Sources */,
+				A50CCFC49BDCEE61A2987AF9 /* Edges.swift in Sources */,
+				93CE9A558F8803339F307675 /* Expression.swift in Sources */,
+				6A96A44476D748CFA2C58962 /* Extensions.swift in Sources */,
+				E565BAD2B5D002DE53610C79 /* Layout.swift in Sources */,
+				2AB31CBC39D834E1B25D2B4D /* LayoutProxy.swift in Sources */,
+				9BF72F737AADDBC72C1D67E0 /* Pods-Betafish-Cartography-dummy.m in Sources */,
+				A82F6105E699A09FFB500A71 /* Point.swift in Sources */,
+				C3103F65576C440E6A9D2BB9 /* Priority.swift in Sources */,
+				182F9998E9B9D4B3F3D6F7DC /* Property.swift in Sources */,
+				0CF2A082E25ACCD1141C3CE0 /* Size.swift in Sources */,
+				56CBD988399D4B8614F719EC /* View.swift in Sources */,
+				6C62AB68E59237B285F74899 /* ViewUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB588D7AB69D757BE2783705 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007A1C92AA4523C7048021C4 /* IFTTTAlphaAnimation.m in Sources */,
+				AD869FA64A9F0254B41B4E10 /* IFTTTAnimatedPagingScrollViewController.m in Sources */,
+				EEFA596BB5AB0AA3B7484AEF /* IFTTTAnimatedScrollViewController.m in Sources */,
+				9DC1249D8DBA41C3D06A1568 /* IFTTTAnimation.m in Sources */,
+				9377B468C38F1EBFAEFA7B0F /* IFTTTAnimator.m in Sources */,
+				44563067E164E8CB2A598695 /* IFTTTColorAnimation.m in Sources */,
+				0A60BC170B80C4396A82A77A /* IFTTTConstraintConstantAnimation.m in Sources */,
+				C4A287950918FF560FE40822 /* IFTTTConstraintMultiplierAnimation.m in Sources */,
+				ED49155AAE0FF358176AB4F8 /* IFTTTCornerRadiusAnimation.m in Sources */,
+				5283A2F9395F0DCFBED13DF3 /* IFTTTEasingFunction.m in Sources */,
+				5DD648B6635B827D5052F618 /* IFTTTFillColorAnimation.m in Sources */,
+				D9F1BE2C86BAEF754DE1FB93 /* IFTTTFilmstrip.m in Sources */,
+				077D9C1403B63CD6EAB20B3E /* IFTTTFrameAnimation.m in Sources */,
+				CA595A18D1899DA0DFB8E4B7 /* IFTTTHideAnimation.m in Sources */,
+				3F534E761917FE0641E0C138 /* IFTTTInterpolatable.m in Sources */,
+				2583045FC6F7C174A34C1A80 /* IFTTTLabelAnimation.m in Sources */,
+				3B3ACBB12057FDF3237322E6 /* IFTTTRotationAnimation.m in Sources */,
+				772127C20571E63B0F7810CE /* IFTTTScaleAnimation.m in Sources */,
+				E5C77DD086FC7B8F70C3DB6F /* IFTTTScrollViewPageConstraintAnimation.m in Sources */,
+				7C15D9656AEABBA410A7C269 /* IFTTTShapeLayerAnimation.m in Sources */,
+				1897E7E1B0E582ECDE64A22A /* IFTTTStrokeEndAnimation.m in Sources */,
+				FDCA45542FEC37AE9C1069BF /* IFTTTStrokeStartAnimation.m in Sources */,
+				EF85D92593E49A51F820F8ED /* IFTTTTextColorAnimation.m in Sources */,
+				75A814733730D7F4F2F2CF26 /* IFTTTTransform3DAnimation.m in Sources */,
+				0A8C5C8A3C532F1E0913DFA3 /* IFTTTTranslationAnimation.m in Sources */,
+				97B6543692E3F8A54BA09CEE /* IFTTTViewAnimation.m in Sources */,
+				9713AEFC01C5B337E3DBEADF /* Pods-Betafish-JazzHands-dummy.m in Sources */,
+				59CD94FAECF2C5F35E34B591 /* UIView+IFTTTJazzHands.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05B35ECDCA406DDEB8F1F38F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Betafish-Cartography";
+			target = 6EB7578E73AF3D89AD6800D5 /* Pods-Betafish-Cartography */;
+			targetProxy = 5961D83CA55050EEBF874C5F /* PBXContainerItemProxy */;
+		};
+		0DEC8255FD2AA29ED81F2C8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Betafish-Pages";
+			target = CBD8F72BA82F8DDA1EC77756 /* Pods-Betafish-Pages */;
+			targetProxy = F6BDE526FE32FAC93F3134B9 /* PBXContainerItemProxy */;
+		};
+		2C87DE5705A6A02BE6A08231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Betafish-Cartography";
+			target = 6EB7578E73AF3D89AD6800D5 /* Pods-Betafish-Cartography */;
+			targetProxy = B3BBF8028ACDB51A7D907E99 /* PBXContainerItemProxy */;
+		};
+		37C2051F3638A4350B739D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Betafish-ZLSwipeableView";
+			target = E67DAEA8D6C13F2C6F9400DA /* Pods-Betafish-ZLSwipeableView */;
+			targetProxy = 6822194F8CE8D54926D4E76D /* PBXContainerItemProxy */;
+		};
+		6D1FACAC3291F4844356DC19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Betafish-Presentation";
+			target = 5DCADD5562601D4ACE2F3009 /* Pods-Betafish-Presentation */;
+			targetProxy = 62B25EE766AC2FAF490242C3 /* PBXContainerItemProxy */;
+		};
+		857A8E86AD1A7C96BF620146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Betafish-Pages";
+			target = CBD8F72BA82F8DDA1EC77756 /* Pods-Betafish-Pages */;
+			targetProxy = 49ECE3F5E01BB7758D9AE37E /* PBXContainerItemProxy */;
+		};
+		D47FE4E271505721DB8703CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Betafish-JazzHands";
+			target = 19487269484B3DACFCEB6418 /* Pods-Betafish-JazzHands */;
+			targetProxy = D24FB120BFA0ABE9480A848F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		133671BB5279AA0B858FE613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4B4388A3AFD42B649B0025 /* Pods-Betafish-Cartography-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-Cartography/Pods-Betafish-Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-Cartography/Pods-Betafish-Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1857E810CC2450BB670F85CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47023500FBE959A1EC6B6271 /* Pods-Betafish.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish/Pods-Betafish.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Betafish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29E49057EA5E6B899D76C85A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306F9CA6D63AEEF7883CD93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9F131D26D0E1619ADECE27 /* Pods-Betafish.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish/Pods-Betafish.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Betafish;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3ACE532EF73AD5D0F2EAC8C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340602B1827E3231983C9573 /* Pods-Betafish-Pages-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-Pages/Pods-Betafish-Pages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-Pages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-Pages/Pods-Betafish-Pages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Pages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A45B8A4E49249509A40132A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99FB073753B9A12B3EEED90 /* Pods-Betafish-Presentation-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-Presentation/Pods-Betafish-Presentation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-Presentation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-Presentation/Pods-Betafish-Presentation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Presentation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		626B7A239B334A6C6BC4313F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99FB073753B9A12B3EEED90 /* Pods-Betafish-Presentation-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-Presentation/Pods-Betafish-Presentation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-Presentation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-Presentation/Pods-Betafish-Presentation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Presentation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		672701BEE05E6E864DA31072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC12DB5292AA05954FF378D0 /* Pods-Betafish-ZLSwipeableView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-ZLSwipeableView/Pods-Betafish-ZLSwipeableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-ZLSwipeableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-ZLSwipeableView/Pods-Betafish-ZLSwipeableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZLSwipeableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A224E12A7BC305C90ADB154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4B4388A3AFD42B649B0025 /* Pods-Betafish-Cartography-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-Cartography/Pods-Betafish-Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-Cartography/Pods-Betafish-Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B74389B39DBE70068296ABA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA85136A3EFDE7309884038F /* Pods-Betafish-JazzHands-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-JazzHands/Pods-Betafish-JazzHands-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-JazzHands/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-JazzHands/Pods-Betafish-JazzHands.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JazzHands;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E786253B49F863265B71AE95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E84DCD71DD6F21A57924DBDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC12DB5292AA05954FF378D0 /* Pods-Betafish-ZLSwipeableView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-ZLSwipeableView/Pods-Betafish-ZLSwipeableView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-ZLSwipeableView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-ZLSwipeableView/Pods-Betafish-ZLSwipeableView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZLSwipeableView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0DE2826B0B5A3DD4EF2BC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340602B1827E3231983C9573 /* Pods-Betafish-Pages-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-Pages/Pods-Betafish-Pages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-Pages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-Pages/Pods-Betafish-Pages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Pages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3DEB2CA7FCFD57712F44D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA85136A3EFDE7309884038F /* Pods-Betafish-JazzHands-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Betafish-JazzHands/Pods-Betafish-JazzHands-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-Betafish-JazzHands/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Betafish-JazzHands/Pods-Betafish-JazzHands.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JazzHands;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD3B3F07DD9D6876591A61F /* Build configuration list for PBXNativeTarget "Pods-Betafish-Presentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A45B8A4E49249509A40132A /* Debug */,
+				626B7A239B334A6C6BC4313F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37971F36AB185C82BE1D8E77 /* Build configuration list for PBXNativeTarget "Pods-Betafish-Pages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0DE2826B0B5A3DD4EF2BC07 /* Debug */,
+				3ACE532EF73AD5D0F2EAC8C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4258D49AF84ACC7B89899879 /* Build configuration list for PBXNativeTarget "Pods-Betafish-Cartography" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A224E12A7BC305C90ADB154 /* Debug */,
+				133671BB5279AA0B858FE613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55580559A98BD6035BE449E5 /* Build configuration list for PBXNativeTarget "Pods-Betafish-JazzHands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74389B39DBE70068296ABA0 /* Debug */,
+				F3DEB2CA7FCFD57712F44D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ADD32E0FC466F56456556D3 /* Build configuration list for PBXNativeTarget "Pods-Betafish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1857E810CC2450BB670F85CB /* Debug */,
+				306F9CA6D63AEEF7883CD93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA1C0921D4A8E5D1E026C45 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E786253B49F863265B71AE95 /* Debug */,
+				29E49057EA5E6B899D76C85A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE63CBC35004E695D1148CB7 /* Build configuration list for PBXNativeTarget "Pods-Betafish-ZLSwipeableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84DCD71DD6F21A57924DBDE /* Debug */,
+				672701BEE05E6E864DA31072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C2BEA71F26236B813D04048 /* Project object */;
+}

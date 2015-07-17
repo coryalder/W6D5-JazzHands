@@ -1,0 +1,6 @@
+framework module Pods_Betafish {
+  umbrella header "Pods-Betafish-umbrella.h"
+
+  export *
+  module * { export * }
+}
