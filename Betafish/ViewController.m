@@ -31,9 +31,9 @@
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
 
-    IntroTourViewController *introController = [[IntroTourViewController alloc] init];
+    // init and show tour
     
-    [self presentViewController:introController animated:YES completion:nil];
+    // make this dependant on a user default?
 
 }
 

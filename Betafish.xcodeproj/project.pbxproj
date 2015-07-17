@@ -14,7 +14,6 @@
 		8B4055241B544E230029CE1E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4055231B544E230029CE1E /* icon@2x.png */; };
 		8B4055261B544E270029CE1E /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B4055251B544E270029CE1E /* icon@3x.png */; };
 		8B50C7A01B5889D4002B1DB7 /* IntroTourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B50C79F1B5889D4002B1DB7 /* IntroTourViewController.m */; };
-		8B50C7A21B589621002B1DB7 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B50C7A11B589621002B1DB7 /* bg.jpg */; };
 		8BD646411B5430EE00A8A7A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD646401B5430EE00A8A7A8 /* main.m */; };
 		8BD646441B5430EE00A8A7A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD646431B5430EE00A8A7A8 /* AppDelegate.m */; };
 		8BD646471B5430EE00A8A7A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD646461B5430EE00A8A7A8 /* ViewController.m */; };
@@ -45,7 +44,6 @@
 		8B4055251B544E270029CE1E /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
 		8B50C79E1B5889D4002B1DB7 /* IntroTourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroTourViewController.h; sourceTree = "<group>"; };
 		8B50C79F1B5889D4002B1DB7 /* IntroTourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroTourViewController.m; sourceTree = "<group>"; };
-		8B50C7A11B589621002B1DB7 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		8BD6463B1B5430EE00A8A7A8 /* Betafish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Betafish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD6463F1B5430EE00A8A7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD646401B5430EE00A8A7A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 		8BD6463D1B5430EE00A8A7A8 /* Betafish */ = {
 			isa = PBXGroup;
 			children = (
-				8B50C7A11B589621002B1DB7 /* bg.jpg */,
 				8BD646421B5430EE00A8A7A8 /* AppDelegate.h */,
 				8BD646431B5430EE00A8A7A8 /* AppDelegate.m */,
 				8BD646451B5430EE00A8A7A8 /* ViewController.h */,
@@ -262,7 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4055221B54466F0029CE1E /* BetaProductView.xib in Resources */,
-				8B50C7A21B589621002B1DB7 /* bg.jpg in Resources */,
 				8BD6464A1B5430EE00A8A7A8 /* Main.storyboard in Resources */,
 				8B4055261B544E270029CE1E /* icon@3x.png in Resources */,
 				8BD6464F1B5430EE00A8A7A8 /* LaunchScreen.xib in Resources */,
